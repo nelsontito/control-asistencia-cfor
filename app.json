@@ -1,24 +1,32 @@
 {
   "expo": {
-    "name": "control-asistencia",
-    "slug": "control-asistencia",
+    "name": "Control Asistencia CFOR",
+    "slug": "control-asistencia-cfor",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/logoAppCfor.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/logoAppCfor.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#141810"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cfor.asistencia"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "backgroundColor": "#141810",
+        "foregroundImage": "./assets/logoAppCfor.png"
+      },
+      "package": "com.cfor.asistencia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sharing"
+    ]
   }
 }
